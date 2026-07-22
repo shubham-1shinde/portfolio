@@ -3,7 +3,6 @@ import AnimatedBackground from './components/AnimatedBackground';
 import CustomCursor from './components/CustomCursor';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
 import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Skills from './pages/Skills';

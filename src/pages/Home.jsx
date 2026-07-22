@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, ArrowRight, GitBranch, Share2, Mail, Terminal, ShieldCheck } from 'lucide-react';
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -70,15 +71,15 @@ export default function Home() {
           transition={{ delay: 0.4 }}
           className="pt-8 border-t border-slate-800/80 flex flex-wrap items-center justify-center md:justify-start gap-6 text-slate-400 text-sm font-mono"
         >
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-indigo-400 transition-colors">
-            <GitBranch className="w-4 h-4" />
+          <a href="https://github.com/shubham-1shinde" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-indigo-400 transition-colors">
+            <FaGithub className="w-4 h-4" />
             <span>GitHub</span>
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-indigo-400 transition-colors">
-            <Share2 className="w-4 h-4" />
+          <a href="https://www.linkedin.com/in/shubham1shinde/" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-indigo-400 transition-colors">
+            <FaLinkedin className="w-4 h-4" />
             <span>LinkedIn</span>
           </a>
-          <a href="mailto:shubham@example.com" className="flex items-center gap-2 hover:text-indigo-400 transition-colors">
+          <a href="mailto:shubhamshinde0225@gmail.com" className="flex items-center gap-2 hover:text-indigo-400 transition-colors">
             <Mail className="w-4 h-4" />
             <span>Email</span>
           </a>
