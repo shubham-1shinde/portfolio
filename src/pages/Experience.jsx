@@ -23,7 +23,7 @@ const EXPERIENCE_DATA = [
 
 export default function Experience() {
   return (
-    <section className="py-24 px-4 max-w-4xl mx-auto">
+    <div className="px-4 max-w-4xl mx-auto">
       <SectionTitle
         tag="CAREER_PATH"
         title="Work Experience"
@@ -35,6 +35,6 @@ export default function Experience() {
           <ExperienceCard key={idx} exp={exp} index={idx} />
         ))}
       </div>
-    </section>
+    </div>
   );
 }

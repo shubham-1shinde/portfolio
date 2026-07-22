@@ -1,11 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, ArrowRight, GitBranch, Share2, Mail, Terminal, ShieldCheck } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
-    <section className="min-h-[85vh] flex items-center justify-center pt-24 pb-12 px-4">
+    <section className="min-h-[85vh] flex items-center justify-center pt-8 pb-8 px-4">
       <div className="max-w-4xl mx-auto text-center md:text-left">
         {/* Availability Badge */}
         <motion.div
@@ -43,13 +42,14 @@ export default function Home() {
           transition={{ delay: 0.3 }}
           className="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-12"
         >
-          <Link
-            to="/projects"
+          {/* ✅ NEW (Standard Anchor Tag for Smooth Scroll) */}
+          <a
+            href="#projects"
             className="px-6 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-sm transition-all flex items-center gap-2 shadow-lg shadow-indigo-600/20 group"
           >
             <span>View Projects</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </Link>
+          </a>
 
           <a
             href="/resume.pdf"

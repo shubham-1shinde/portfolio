@@ -38,3 +38,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #334155;
 }
+
+/* src/index.css */
+html {
+  scroll-behavior: smooth;
+}
