@@ -8,6 +8,7 @@ import Experience from './pages/Experience';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import About from './pages/About';
 
 export default function App() {
   return (
@@ -19,6 +20,10 @@ export default function App() {
       <main className="z-10 flex-grow space-y-12 md:space-y-16">
         <section id="home" className="pt-24 pb-8">
           <Home />
+        </section>
+
+        <section id="experience" className="pt-12 pb-8">
+          <About />
         </section>
 
         <section id="experience" className="pt-12 pb-8">

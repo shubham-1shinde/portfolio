@@ -5,8 +5,8 @@ import ExperienceCard from '../components/ExperienceCard';
 const EXPERIENCE_DATA = [
   {
     company: 'Careasa Healthcare Private Limited',
-    role: 'Full Stack Web Developer Intern',
-    duration: '1 Month (Online Internship)',
+    role: 'Web Developer Intern',
+    duration: '1 Month ( Remote)',
     description: 'Worked on healthcare technology products connecting psychology doctors and patients.',
     contributions: [
       'Developed responsive frontend interfaces for patient onboarding and scheduling',
