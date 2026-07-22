@@ -6,7 +6,9 @@ const EXPERIENCE_DATA = [
   {
     company: 'Careasa Healthcare Private Limited',
     role: 'Web Developer Intern',
-    duration: '1 Month ( Remote)',
+    link: 'https://careasa.com/',
+    type: 'FULL_STACK',
+    period: 'Jan 2023 - May 2023',
     description: 'Worked on healthcare technology products connecting psychology doctors and patients.',
     contributions: [
       'Developed responsive frontend interfaces for patient onboarding and scheduling',
@@ -17,7 +19,7 @@ const EXPERIENCE_DATA = [
       'Implemented subscription package selection flow with dynamic UI updates',
       'Worked with MERN stack initially and transitioned to PostgreSQL, Express, React, Node.js (PERN stack)',
     ],
-    stack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL', 'MongoDB', 'Tailwind CSS'],
+    stack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL', 'Tailwind CSS'],
   },
 ];
 

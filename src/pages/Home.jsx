@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Download, ArrowRight, GitBranch, Share2, Mail, Terminal, ShieldCheck } from 'lucide-react';
+import { Download, ArrowRight, Mail, Terminal, ShieldCheck } from 'lucide-react';
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export default function Home() {

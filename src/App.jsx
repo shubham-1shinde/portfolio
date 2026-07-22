@@ -22,7 +22,7 @@ export default function App() {
           <Home />
         </section>
 
-        <section id="experience" className="pt-12 pb-8">
+        <section id="home" className="pt-8 pb-8">
           <About />
         </section>
 
