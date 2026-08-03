@@ -8,7 +8,7 @@ const EXPERIENCE_DATA = [
     role: 'Web Developer Intern',
     link: 'https://careasa.com/',
     type: 'FULL_STACK',
-    period: 'Jan 2023 - May 2023',
+    period: 'Jun 2025 - July 2025',
     description: 'Worked on healthcare technology products connecting psychology doctors and patients.',
     contributions: [
       'Developed responsive frontend interfaces for patient onboarding and scheduling',
