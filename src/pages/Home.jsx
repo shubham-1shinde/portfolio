@@ -53,7 +53,7 @@ export default function Home() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/Shubham_Shinde_Resume.pdf"
             download="Shubham_Shinde_Resume.pdf"
             target="_blank"
             rel="noreferrer"
