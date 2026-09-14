@@ -77,7 +77,7 @@ export default function ProjectCard({ project, index }) {
               <div className="flex items-center justify-between text-[10px] font-mono gap-1 text-slate-300">
                 <div className="flex flex-col items-center p-1.5 rounded bg-slate-900 border border-slate-800 flex-1 text-center">
                   <span className="text-slate-500 text-[9px]">CLIENT</span>
-                  <span className="text-indigo-300 font-semibold truncate w-full">React</span>
+                  <span className="text-indigo-300 font-semibold truncate w-full">{project.client || 'React'}</span>
                 </div>
                 
                 <ArrowRight className="w-3 h-3 text-indigo-500/60 shrink-0" />

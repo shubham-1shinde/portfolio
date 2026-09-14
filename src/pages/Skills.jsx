@@ -40,6 +40,23 @@ const SKILLS_DATA = [
 
   // AI Integration (AI)
   { name: 'Gemini API', category: 'AI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg', url: 'https://ai.google.dev' },
+
+  
+  // Generative AI (GENAI)
+  { name: 'Generative AI', category: 'AI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg', url: 'https://ai.google.dev/' },
+
+  { name: 'LangChain', category: 'AI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg', url: 'https://www.langchain.com/' },
+
+  { name: 'RAG', category: 'AI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg', url: 'https://python.langchain.com/docs/concepts/retrieval/' },
+
+  { name: 'Prompt Engineering', category: 'AI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg', url: 'https://platform.openai.com/docs/guides/prompt-engineering' },
+
+  { name: 'AI Agents', category: 'AI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg', url: 'https://www.langchain.com/agents' },
+
+  { name: 'Vector Search', category: 'AI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg', url: 'https://qdrant.tech/' },
+
+  { name: 'Hugging Face', category: 'AI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg', url: 'https://huggingface.co/' },
+
 ];
 
 export default function Skills() {

@@ -4,6 +4,71 @@ import ProjectCard from '../components/ProjectCard';
 
 const PROJECTS_DATA = [
   {
+    name: 'AI Production Debugger',
+
+    description: 'An AI-powered debugging assistant for VS Code that analyzes errors, repository code, terminal logs, diagnostics, and project context to identify root causes and suggest fixes.',
+
+    features: [
+        'One-click debugging directly from VS Code',
+        'Automatic collection of errors, diagnostics, active code, and terminal logs',
+        'Git repository and branch context detection',
+        'RAG-based repository code retrieval using vector search',
+        'AI-powered root cause analysis using Gemini',
+        'Evidence-based debugging to reduce AI hallucinations',
+        'Suggested code fixes and files to change',
+        'Verification steps to validate the proposed fix',
+    ],
+
+    techStack: [
+        'TypeScript',
+        'VS Code Extension API',
+        'Python',
+        'FastAPI',
+        'LangChain',
+        'Gemini API',
+        'Qdrant',
+        'Hugging Face Embeddings',
+        'GitHub API'
+    ],
+    github: 'https://github.com/shubham-1shinde/AI-Production-Debugger',
+    live: '',
+    client: 'Extension',
+    backend_framework: 'FastAPI',
+    database: 'Qdrant',
+  },
+  {
+    name: 'BizOS',
+    description: 'An AI-powered Business Operating System designed to help businesses manage operations, analyze data, generate forecasts, and make smarter business decisions from a single platform.',
+    features: [
+      'Upgraded version of GST Assistant with broader business management capabilities',
+      'Centralized KPI dashboard for business performance',
+      'AI Business Assistant for insights and queries',
+      'Sales, finance, inventory, and customer analytics',
+      'AI forecasting for revenue, demand, and profit',
+      'What-If simulation and business automation',
+    ],
+    techStack: [
+      'React.js',
+      'Tailwind CSS',
+      'Redux Toolkit',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Mongoose',
+      'Python',
+      'FastAPI',
+      'Pandas',
+      'NumPy',
+      'Scikit-learn',
+      'Gemini API'
+    ],
+    github: 'https://github.com/shubham-1shinde/bizos',
+    live: 'https://bizos-weld.vercel.app/dashboard',
+    backend_framework: 'Express.js',
+    ai_service: 'FastAPI',
+    database: 'MongoDB'
+  },
+  {
     name: 'GST Assistant',
     description: 'A GST compliance assistant platform designed for small businesses to simplify GST management and reduce manual calculations.',
     features: [
@@ -114,7 +179,7 @@ const PROJECTS_DATA = [
       'REST API'
     ],
     github: 'https://github.com/shubham-1shinde/ecommerse', 
-    live: 'https://github.com/shubham-1shinde/ecommerse', 
+    live: '', 
     backend_framework: 'Spring Boot',
     database: 'MySQL',
   },
