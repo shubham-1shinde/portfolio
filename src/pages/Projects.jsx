@@ -4,7 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 
 const PROJECTS_DATA = [
   {
-    name: 'AI Production Debugger',
+    name: 'AI Code Debugger',
 
     description: 'An AI-powered debugging assistant for VS Code that analyzes errors, repository code, terminal logs, diagnostics, and project context to identify root causes and suggest fixes.',
 
