@@ -54,13 +54,13 @@ export default function About() {
 
           {/* Bio Description */}
           <p className="text-slate-300 text-base leading-relaxed">
-          I'm a final year Computer Science undergraduate at MIT Art, Design and Technology University, Pune, passionate about software engineering and building full-stack web applications with a focus on clean, scalable code and real-world impact.
+          I'm a final-year Computer Science undergraduate at MIT Art, Design and Technology University, Pune, passionate about software engineering and building full-stack web applications with a focus on clean, scalable code and real-world impact.
 
-          My core stack is the MERN ecosystem — MongoDB, Express, React, and Node — paired with Tailwind CSS for building responsive, user-friendly interfaces. I also work with Java, Spring Boot, and SQL databases like MySQL and PostgreSQL.
+          My core stack is the MERN ecosystem — MongoDB, Express, React, and Node.js — paired with Tailwind CSS for building responsive, user-friendly interfaces. I also work with Generative AI technologies, including LLMs, LangChain, Retrieval-Augmented Generation (RAG), embeddings, vector databases, and AI agents, to build intelligent, AI-powered applications.
 
           I've interned as a Web Development Intern at Careasa Healthcare, where I worked on responsive web applications and collaborated cross-functionally to debug, optimize, and deliver reliable features.
 
-          Always learning, always building — open to conversations about code, products, and ideas worth creating.
+          Always learning, always building — open to conversations about code, AI, products, and ideas worth creating.
 
           </p>
 
